@@ -136,4 +136,9 @@ textarea {
     line-height: inherit;
 }
 
-.glyphicon{margin-right: 10%;}  /* Tiffoejer af THAN - det breaker :-( */
+.glyphicon {
+    margin-left: 0px;
+    margin-right: 10px;
+}
+
+.btn-lg {padding: 10px 20px;}
