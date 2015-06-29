@@ -142,3 +142,17 @@ textarea {
 }
 
 .btn-lg {padding: 10px 20px;}
+
+.vuc_footer{margin-top: 20px; padding-top: 30px; padding-bottom: 30px; background-color: #f8f8f6;; text-align: center}
+.vuc_footer h2 {margin-top: 0px; margin-bottom: 20px; padding: 0px;}
+.footerText{margin: 0px; color: #666;}
+.footerCopywrite{margin-top: 20px; margin-bottom: 0px;}
+
+.container_main{
+    background-color: white;
+}
+
+.thumbnail{
+    border:none;
+}
+
