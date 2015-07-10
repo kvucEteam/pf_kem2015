@@ -523,12 +523,28 @@
     </div>
  -->
     <script src="../../../library/vendor_scripts.js"></script>
-<!-- 
-    <script src="../../../../components/shared_functions.js"></script>
-  -->   
+
+    <script src="visningssite.js"></script>
+    
+
+    <script type="text/javascript">
+
+
+        $(document).ready(function() {
+            
+        });
+
+    </script>
+
     <script type="text/javascript">
         $(document).ready(function() {
-            footer();
+            footer();  // Add footer.
+
+            FontSizeScalerNew(".col-md-6", [".btn-default"], 558);  // Resize buttons upon load.
+
+            $(window).resize(function() {
+                FontSizeScalerNew(".col-md-6", [".btn-default"], 558);   // Resize buttons upon load.
+            });
         });
     </script>
 </body>
