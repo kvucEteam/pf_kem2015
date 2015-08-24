@@ -155,4 +155,9 @@ textarea {
 .thumbnail{
     border:none;
 }
-
+/*gør .btn-lg mindre mellem første og tredje break-point*/
+@media only screen and (min-width:922px) and (max-width: 1199px)  {
+    .btn-lg {
+        font-size:14px;
+    }
+}
