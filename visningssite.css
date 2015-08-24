@@ -132,7 +132,7 @@ button,
 select,
 textarea {
     font-family: inherit;
-    font-size: in	herit;
+    font-size: inherit;
     line-height: inherit;
 }
 
@@ -156,7 +156,7 @@ textarea {
     border:none;
 }
 /*gør .btn-lg mindre mellem første og tredje break-point*/
-@media only screen and (min-width:922px) and (max-width: 1199px)  {
+@media only screen and (min-width:992px) and (max-width: 1199px)  {
     .btn-lg {
         font-size:14px;
     }
