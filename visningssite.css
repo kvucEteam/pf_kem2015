@@ -76,13 +76,6 @@ h1 {
     margin-top: -50px;
 }
 
-@media screen and (max-width: 480px) {
-    .btn-lg {
-        display: inline-block;
-        float: none;
-    }
-}
-
 .MetaDataLink {
     color: #0071bc;
     margin-right: 20px;
@@ -132,7 +125,7 @@ button,
 select,
 textarea {
     font-family: inherit;
-    font-size: in	herit;
+    font-size: inherit;
     line-height: inherit;
 }
 
@@ -155,4 +148,14 @@ textarea {
 .thumbnail{
     border:none;
 }
-
+/*gør .btn-lg mindre mellem første og tredje break-point*/
+@media only screen and (min-width:992px) and (max-width: 1199px)  {
+    .btn-lg {
+        font-size:14px;
+    }
+}
+@media only screen and (max-width: 992px)  {
+    .indlejring_container{
+        display: none;   
+    }
+}
